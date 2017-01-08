@@ -13,7 +13,7 @@ Simple PHP ORM for tree data structures
     $obj = new \DAL\DummyDataObject();
     var_dump($obj);
     
-    // get databse handle
+    // get database handle
     $hld = new \DAL\HighLevelDAL();
     
     // save the data object to database
@@ -22,4 +22,4 @@ Simple PHP ORM for tree data structures
     // load the data object from database
     $loadedObj = $hld->loadDataObject($obj->getCombinedId(), 1);
     var_dump($loadedObj);
-    ``
+    
