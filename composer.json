@@ -9,6 +9,7 @@
     ],
     "require": {
         "psr/log": "1.0.*",
-        "monolog/monolog": "1.22.*"
+        "monolog/monolog": "1.22.*",
+        "php-console/php-console": "*"
     }
 }

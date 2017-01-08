@@ -28,11 +28,22 @@ class ComposerStaticInitd331bfa3e76c4895fa3b5eaca4137bbe
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'P' => 
+        array (
+            'PhpConsole' => 
+            array (
+                0 => __DIR__ . '/..' . '/php-console/php-console/src',
+            ),
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInitd331bfa3e76c4895fa3b5eaca4137bbe::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitd331bfa3e76c4895fa3b5eaca4137bbe::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitd331bfa3e76c4895fa3b5eaca4137bbe::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
