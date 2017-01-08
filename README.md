@@ -1,6 +1,10 @@
 # o-tree
 Simple PHP ORM for tree data structures
 
+    "require": {
+          "the-great-wizard/o-tree": "dev-master"
+      }
+
 # Example
 
     // database connection configurations
