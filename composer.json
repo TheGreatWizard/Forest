@@ -1,6 +1,7 @@
 {
     "name": "vendor/forest",
     "description": "Description of project Forest.",
+    "license": "MIT",
     "authors": [
         {
             "name": "Grigory Ilizirov",
@@ -11,5 +12,11 @@
         "psr/log": "1.0.*",
         "monolog/monolog": "1.22.*",
         "php-console/php-console": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DAL\\": "src/dal",
+            "Manager\\": "src/manager"
+        }
     }
 }

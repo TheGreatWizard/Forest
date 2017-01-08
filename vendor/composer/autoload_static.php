@@ -14,6 +14,11 @@ class ComposerStaticInitd331bfa3e76c4895fa3b5eaca4137bbe
         'M' => 
         array (
             'Monolog\\' => 8,
+            'Manager\\' => 8,
+        ),
+        'D' => 
+        array (
+            'DAL\\' => 4,
         ),
     );
 
@@ -25,6 +30,14 @@ class ComposerStaticInitd331bfa3e76c4895fa3b5eaca4137bbe
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Manager\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/manager',
+        ),
+        'DAL\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/dal',
         ),
     );
 
