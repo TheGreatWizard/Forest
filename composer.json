@@ -1,0 +1,14 @@
+{
+    "name": "vendor/forest",
+    "description": "Description of project Forest.",
+    "authors": [
+        {
+            "name": "Grigory Ilizirov",
+            "email": "sguyalef@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/log": "1.0.*",
+        "monolog/monolog": "1.22.*"
+    }
+}
