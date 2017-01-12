@@ -1,6 +1,6 @@
 
 
-![alt tag](http://url/to/diagram.png)
+![alt tag](https://github.com/TheGreatWizard/OTree/tree/master/src/img)
 
 # o-tree
 Simple PHP ORM for tree data structures
