@@ -1,10 +1,17 @@
-
-
-![alt tag](https://github.com/TheGreatWizard/OTree/blob/master/src/img/diagram.png)
-
 # o-tree
 Simple PHP ORM for tree data structures
 
+1. Biuld your object and inherit one of DataObject types:
+
+![alt tag](https://github.com/TheGreatWizard/OTree/blob/master/src/img/diagram.png)
+
+2. Connect your data object to a tree structure
+
+3. Save the tree to database
+
+4. Load the tree starting from the node you choose to the depth you choose
+
+# install with composer
     "require": {
           "the-great-wizard/o-tree": "dev-master"
       }
