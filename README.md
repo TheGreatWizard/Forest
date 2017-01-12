@@ -2,10 +2,9 @@
 Simple PHP ORM for tree data structures
 
 1. Biuld your object and inherit one of DataObject types:
+    ![alt tag](https://github.com/TheGreatWizard/OTree/blob/master/src/img/diagram.png)
 
-![alt tag](https://github.com/TheGreatWizard/OTree/blob/master/src/img/diagram.png)
-
-2. Connect your data object to a tree structure
+2. Connect your data objects to form tree structure
 
 3. Save the tree to database
 
