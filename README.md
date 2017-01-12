@@ -1,7 +1,7 @@
 # o-tree
 Simple PHP ORM for tree data structures
 
-1. Biuld your object and inherit one of DataObject types:
+1. Build your data object inheriting one of predefined DataObject types:
     ![alt tag](https://github.com/TheGreatWizard/OTree/blob/master/src/img/diagram.png)
 
 2. Connect your data objects to form tree structure
@@ -23,7 +23,7 @@ Simple PHP ORM for tree data structures
     define('DB_PASSWORD', 'your_mysql_password');
     define('DB_HOST', '127.0.0.1');
     
-    // biuld an object that inherit DataObject. 
+    // build an object that inherit DataObject. 
     $obj = new \DAL\DummyDataObject();
     var_dump($obj);
     
