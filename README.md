@@ -1,3 +1,7 @@
+
+
+![alt tag](http://url/to/diagram.png)
+
 # o-tree
 Simple PHP ORM for tree data structures
 
