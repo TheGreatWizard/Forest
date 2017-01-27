@@ -5,7 +5,7 @@ namespace DAL;
 class HighLevelDAL
 {
 
-    protected $dal;
+    public $dal;
 
     public function __construct()
     {
