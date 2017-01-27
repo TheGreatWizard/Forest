@@ -121,7 +121,7 @@ abstract class DataObject
     {
         $className = get_class($this);
         $index = array_search($className, self::$dataClassNames);
-        if ($index==false) {
+        if ($index===false) {
             throw new \Exception("the class $className not found, construnct dummy class.");
         }
         $tableName = self::$tableNames[$index];
