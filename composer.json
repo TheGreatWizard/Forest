@@ -1,6 +1,6 @@
 {
     "name": "the-great-wizard/o-tree",
-    "description": "Description of project Forest.",
+    "description": "Simple PHP ORM for tree data structures",
     "license": "MIT",
     "authors": [
         {
